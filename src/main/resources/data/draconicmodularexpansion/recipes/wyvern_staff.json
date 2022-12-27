@@ -1,0 +1,37 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicmodularexpansion:wyvern_staff"
+  },
+  "catalyst": {
+    "item": "draconicevolution:wyvern_core"
+  },
+  "total_energy": 64000000,
+  "tier": "WYVERN",
+  "ingredients": [
+    {
+      "item": "draconicevolution:wyvern_pickaxe"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "item": "draconicevolution:wyvern_shovel"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "item": "draconicevolution:wyvern_sword"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "item": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    }
+  ]
+}

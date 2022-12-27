@@ -1,0 +1,37 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicmodularexpansion:draconium_staff"
+  },
+  "catalyst": {
+    "item": "draconicevolution:draconium_core"
+  },
+  "total_energy": 4000000,
+  "tier": "DRACONIUM",
+  "ingredients": [
+    {
+      "item": "draconicmodularexpansion:draconium_pickaxe"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "draconicmodularexpansion:draconium_shovel"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "draconicmodularexpansion:draconium_sword"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "draconicmodularexpansion:draconium_energy_core"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ]
+}

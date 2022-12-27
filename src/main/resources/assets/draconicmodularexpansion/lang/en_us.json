@@ -1,0 +1,15 @@
+{
+	"item.draconicmodularexpansion.draconium_energy_core": "Draconium Energy Controller",
+
+	"item.draconicmodularexpansion.draconium_pickaxe": "Draconium Pickaxe",
+	"item.draconicmodularexpansion.draconium_axe": "Draconium Axe",
+	"item.draconicmodularexpansion.draconium_shovel": "Draconium Shovel",
+	"item.draconicmodularexpansion.draconium_sword": "Draconium Sword",
+	"item.draconicmodularexpansion.draconium_hoe": "Draconium Hoe",
+	"item.draconicmodularexpansion.draconium_chestpiece": "Draconium Chest piece",
+	"item.draconicmodularexpansion.draconium_capacitor": "Draconium Capacitor",
+	"item.draconicmodularexpansion.draconium_staff": "Draconium Staff of Power",
+	"item.draconicmodularexpansion.wyvern_staff": "Wyvern Staff of Power",
+	
+	"itemGroup.draconic_modular_expansion": "Draconic Modular Expansion"
+}

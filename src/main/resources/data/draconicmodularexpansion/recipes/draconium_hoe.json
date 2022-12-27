@@ -1,0 +1,25 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicmodularexpansion:draconium_hoe"
+  },
+  "catalyst": {
+    "item": "minecraft:iron_hoe"
+  },
+  "total_energy": 500000,
+  "tier": "DRACONIUM",
+  "ingredients": [
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "draconicmodularexpansion:draconium_energy_core"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ]
+}
