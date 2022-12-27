@@ -60,3 +60,21 @@ Wow.
     versionRange="[1.16.5,1.17)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.draconicmodularexpansion]]
+	modId="codechickenlib"
+	mandatory=true
+	versionRange="[4.0.3, 5.0.0)"
+	ordering="AFTER"
+	side="BOTH"
+[[dependencies.draconicmodularexpansion]]
+	modId="brandonscore"
+	mandatory=true
+	versionRange="[3.0.14.247,)"
+	ordering="AFTER"
+	side="BOTH"
+[[dependencies.draconicmodularexpansion]]
+	modId="draconicevolution"
+	mandatory=true
+	versionRange="[3.0.0,)"
+	ordering="AFTER"
+	side="BOTH"
