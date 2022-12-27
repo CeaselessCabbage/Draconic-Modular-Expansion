@@ -7,6 +7,7 @@ import com.brandon3055.draconicevolution.CommonProxy;
 import com.brandon3055.draconicevolution.DEConfig;
 import com.brandon3055.draconicevolution.client.handler.ClientEventHandler;
 import com.ceaselesscabbage.draconicmodularexpansion.client.render.item.ModifiedRenderModularAxe;
+import com.ceaselesscabbage.draconicmodularexpansion.client.render.item.ModifiedRenderModularBow;
 import com.ceaselesscabbage.draconicmodularexpansion.client.render.item.ModifiedRenderModularChestpiece;
 import com.ceaselesscabbage.draconicmodularexpansion.client.render.item.ModifiedRenderModularHoe;
 import com.ceaselesscabbage.draconicmodularexpansion.client.render.item.ModifiedRenderModularPickaxe;
@@ -35,6 +36,8 @@ public class ClientProxy extends CommonProxy {
         	modelHelper.register(new ModelResourceLocation(DMEContent.hoe_draconium.getRegistryName(), "inventory"), new ModifiedRenderModularHoe(DRACONIUM));
         	modelHelper.register(new ModelResourceLocation(DMEContent.staff_draconium.getRegistryName(), "inventory"), new ModifiedRenderModularStaff(DRACONIUM));
         	modelHelper.register(new ModelResourceLocation(DMEContent.staff_wyvern.getRegistryName(), "inventory"), new ModifiedRenderModularStaff(WYVERN));
+        	//TODO non-3D bow doesn't have a draw animation
+        	modelHelper.register(new ModelResourceLocation(DMEContent.bow_draconium.getRegistryName(), "inventory"), new ModifiedRenderModularBow(DRACONIUM));
         	
         	//TODO VBOArmorLayer has a cast to ModularChestpiece that silences my modifications and looks under DE files
         	modelHelper.register(new ModelResourceLocation(DMEContent.chestpiece_draconium.getRegistryName(), "inventory"), new ModifiedRenderModularChestpiece(DRACONIUM));

@@ -1,0 +1,31 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicmodularexpansion:draconium_capacitor"
+  },
+  "catalyst": {
+    "item": "draconicevolution:draconium_core"
+  },
+  "total_energy": 500000,
+  "tier": "DRACONIUM",
+  "ingredients": [
+    {
+      "item": "draconicmodularexpansion:draconium_energy_core"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "draconicmodularexpansion:draconium_energy_core"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "draconicmodularexpansion:draconium_energy_core"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ]
+}

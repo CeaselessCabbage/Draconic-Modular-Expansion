@@ -7,7 +7,10 @@ import static net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus.MOD;
 import java.util.ArrayList;
 
 import com.brandon3055.brandonscore.lib.TechPropBuilder;
+import com.brandon3055.draconicevolution.api.modules.Module;
+import com.brandon3055.draconicevolution.api.modules.data.ProjectileData;
 import com.brandon3055.draconicevolution.items.equipment.ModularAxe;
+import com.brandon3055.draconicevolution.items.equipment.ModularBow;
 import com.brandon3055.draconicevolution.items.equipment.ModularChestpiece;
 import com.brandon3055.draconicevolution.items.equipment.ModularHoe;
 import com.brandon3055.draconicevolution.items.equipment.ModularPickaxe;
@@ -17,6 +20,8 @@ import com.brandon3055.draconicevolution.items.equipment.ModularSword;
 import com.ceaselesscabbage.draconicmodularexpansion.DraconicModularExpansion;
 import com.ceaselesscabbage.draconicmodularexpansion.core.itemgroup.DMEItemGroup;
 import com.ceaselesscabbage.draconicmodularexpansion.items.ModifiedModularAxe;
+import com.ceaselesscabbage.draconicmodularexpansion.items.ModifiedModularBow;
+import com.ceaselesscabbage.draconicmodularexpansion.items.ModifiedModularCapacitor;
 import com.ceaselesscabbage.draconicmodularexpansion.items.ModifiedModularChestpiece;
 import com.ceaselesscabbage.draconicmodularexpansion.items.ModifiedModularHoe;
 import com.ceaselesscabbage.draconicmodularexpansion.items.ModifiedModularPickaxe;
@@ -45,8 +50,12 @@ public class DMEContent {
 	@ObjectHolder("draconium_hoe")                 public static ModularHoe                hoe_draconium;
 	@ObjectHolder("draconium_staff")               public static ModularStaff              staff_draconium;
 	@ObjectHolder("wyvern_staff")                  public static ModularStaff              staff_wyvern;
+	@ObjectHolder("draconium_bow")                 public static ModularBow                bow_draconium;
+	
+	@ObjectHolder("draconium_capacitor")           public static ModifiedModularCapacitor  capacitor_draconium;
 	
 	@ObjectHolder("draconium_chestpiece")          public static ModularChestpiece         chestpiece_draconium;
+	
 	
 	public static transient ArrayList<ResourceLocation> ITEM_REGISTRY_ORDER = new ArrayList<>();
 	public static TechPropBuilder draconiumTools = new TechPropBuilder(DRACONIUM).maxStackSize(1).group(DMEItemGroup.DMEItems).rarity(Rarity.COMMON).maxDamage(-1);
@@ -64,6 +73,9 @@ public class DMEContent {
 		registerItem(event, new ModifiedModularHoe(draconiumTools).setRegistryName("draconium_hoe"));
 		registerItem(event, new ModifiedModularStaff(draconiumTools, 4, 4).setRegistryName("draconium_staff"));
 		registerItem(event, new ModifiedModularStaff(wyvernTools, 5, 5).setRegistryName("wyvern_staff"));
+		registerItem(event, new ModifiedModularBow(draconiumTools).setRegistryName("draconium_bow"));
+		
+		registerItem(event, new ModifiedModularCapacitor(draconiumTools).setRegistryName("draconium_capacitor"));
 		
 		registerItem(event, new ModifiedModularChestpiece(draconiumTools).setRegistryName("draconium_chestpiece"));
 		

@@ -6,10 +6,30 @@
 	"item.draconicmodularexpansion.draconium_shovel": "Draconium Shovel",
 	"item.draconicmodularexpansion.draconium_sword": "Draconium Sword",
 	"item.draconicmodularexpansion.draconium_hoe": "Draconium Hoe",
-	"item.draconicmodularexpansion.draconium_chestpiece": "Draconium Chest piece",
-	"item.draconicmodularexpansion.draconium_capacitor": "Draconium Capacitor",
 	"item.draconicmodularexpansion.draconium_staff": "Draconium Staff of Power",
 	"item.draconicmodularexpansion.wyvern_staff": "Wyvern Staff of Power",
+	"item.draconicmodularexpansion.draconium_bow": "Draconium Bow",
+	
+	"item.draconicmodularexpansion.draconium_capacitor": "Draconium Capacitor",
+	
+	"item.draconicmodularexpansion.draconium_chestpiece": "Draconium Chest Piece",
+	
+	
+	
+	"item.draconicmodularexpansion.draconium_flight_module": "Draconium Flight Module",
+	"item.draconicmodularexpansion.draconium_large_shield_capacity_module": "Draconium Large Shield Capacity Module",
+	"item.draconicmodularexpansion.draconium_proj_accuracy_module": "Draconium Projectile Accuracy Module",
+	"item.draconicmodularexpansion.draconium_proj_damage_module": "Draconium Projectile Damage Module",
+	"item.draconicmodularexpansion.draconium_proj_grav_comp_module": "Draconium Projectile Gravity Compensation Module",
+	"item.draconicmodularexpansion.draconium_proj_penetration_module": "Draconium Projectile Penetration Module",
+	"item.draconicmodularexpansion.draconium_proj_velocity_module": "Draconium Projectile Velocity Module",
+	"item.draconicmodularexpansion.draconium_shield_capacity_module": "Draconium Shield Capacity Module",
+	"item.draconicmodularexpansion.draconium_shield_control_module": "Draconium Shield Control Module",
+	"item.draconicmodularexpansion.draconium_shield_recovery_module": "Draconium Shield Recovery Module",
+	"item.draconicmodularexpansion.draconium_undying_module": "Draconium Undying Module",
+	
+	
+	
 	
 	"itemGroup.draconic_modular_expansion": "Draconic Modular Expansion"
 }
