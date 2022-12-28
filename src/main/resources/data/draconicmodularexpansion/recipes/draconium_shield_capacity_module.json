@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "DCD",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "tag": "forge:nuggets/draconium"
+    },
+    "C": {
+      "item": "draconicevolution:module_core"
+    },
+    "D": {
+      "tag": "forge:dusts/glowstone"
+    }
+  },
+  "result": {
+    "item": "draconicmodularexpansion:draconium_shield_capacity_module"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "draconicmodularexpansion:draconium_large_shield_capacity_module"
+    }
+  ],
+  "result": {
+    "item": "draconicmodularexpansion:draconium_shield_capacity_module",
+    "count": 5
+  }
+}

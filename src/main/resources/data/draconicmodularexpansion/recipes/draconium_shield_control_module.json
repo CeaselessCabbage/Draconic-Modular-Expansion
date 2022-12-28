@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ECE",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "tag": "forge:nether_stars"
+    },
+    "C": {
+      "item": "draconicevolution:module_core"
+    },
+    "D": {
+      "item": "draconicevolution:particle_generator"
+    },
+    "E": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "draconicmodularexpansion:draconium_shield_control_module"
+  }
+}

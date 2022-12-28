@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BAB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "draconicmodularexpansion:draconium_shield_capacity_module"
+    },
+    "B": {
+      "tag": "forge:ingots/draconium"
+    }
+  },
+  "result": {
+    "item": "draconicmodularexpansion:draconium_large_shield_capacity_module"
+  }
+}

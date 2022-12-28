@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ECE",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:gems/diamond"
+    },
+    "B": {
+      "item": "draconicevolution:dragon_heart"
+    },
+    "C": {
+      "item": "draconicmodularexpansion:draconium_shield_control_module"
+    },
+    "D": {
+      "item": "draconicevolution:wyvern_core"
+    },
+    "E": {
+      "item": "draconicevolution:draconium_core"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:wyvern_shield_control_module"
+  }
+}
